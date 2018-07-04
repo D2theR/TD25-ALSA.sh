@@ -1,3 +1,3 @@
 #!/bin/bash
 
-alsa_out -d hw:TD25
+alsa_in -j TD25-Mix -d iec958:TD25
